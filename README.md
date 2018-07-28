@@ -3,7 +3,7 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: 
 The naked twins technique is implemented as following:
 1. Find twin boxes and store them in a list of tuple
 We use list comprehension to contrust a new list of tuple of 2 boxes if their values are the same
@@ -16,7 +16,7 @@ are deleted.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: 
 To add diagonal sudoku as a new feature, we simply create a new unit list that has the two diaganol units.
 Then we add this unit list to unitlist. 
 Dictionaries units and peers will automatically take care of themselves with new added units.
